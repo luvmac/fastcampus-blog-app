@@ -1,4 +1,4 @@
-import { Route, Routes, Navigate, Link } from 'react-router-dom'
+import { Route, Routes, Navigate } from 'react-router-dom'
 import Home from '../pages/home'
 import PostList from '../pages/posts'
 import PostDetail from '../pages/posts/detail'
