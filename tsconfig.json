@@ -23,10 +23,10 @@
   "include": [
     "src"
   ],
-  // "paths": {
-  //   "pages/*": ["pages/*"],
-  //   "components/*": ["components/*"],
-  //   "firebaseApp/*": ["firebaseApp/*"],
-  //   "context/*": ["context/*"]
-  // }
+  "paths": {
+    "pages/*": ["pages/*"],
+    "components/*": ["components/*"],
+    "firebaseApp/*": ["firebaseApp/*"],
+    "context/*": ["context/*"]
+  }
 }
