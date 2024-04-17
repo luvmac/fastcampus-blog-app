@@ -69,10 +69,12 @@ code {
       cursor: pointer;
       padding: 48px 20px 0px 20px;
     }
+
     .post__navigation--active {
       color: black;
       font-weight: 600;
     }
+
     /* post list, postdeatil */
     .post__list,
     .post__detail {
@@ -160,7 +162,14 @@ code {
       border-radius: 20px;
     }
   
-    
+    .post__category {
+      color: gray;
+      border: 1px solid lightblue;
+      background: #f2f2f2;
+      padding: 0px 4px;
+      border-radius: 10px;
+      font-size: 12px;
+    }
 
 
 /* postDetail */
@@ -187,6 +196,7 @@ code {
 .post__text--pre-wrap {
   white-space: pre-wrap;
 }
+
 
 
 /* profile  */
@@ -252,7 +262,7 @@ code {
   padding: 10px 10px;
   font-size: 16px;
   border-radius: .3rem;
-  border: 1px solid lightgray;
+  border: 1px solid lightskyblue;
   width: 96%;
   max-width: 680px;
 
@@ -263,7 +273,7 @@ code {
   font-size: 16px;
   line-height: 1.5;
   border-radius: .3rem;
-  border: 1px solid lightgray;
+  border: 1px solid lightskyblue;
   width: 96%;
   max-width: 680px;
 }
@@ -320,6 +330,15 @@ code {
 }
 
 .form__error{
+  color: red;
+}
+
+.form select {
+  border: 1px solid lightskyblue;
+  max-width: 680px;
+  height: 40px;
+  padding: 20px;
+  border-radius: 0.3rem;
   color: red;
 }
 /* loader */
